@@ -17,7 +17,7 @@
 2. Se disena una base que se pueda acoplar a el. Se introduce un chaflan para aliviar los esfuerzos en el cambio de seccion. Los cuatro orificios de la parte superior se usan para introducir tornillos que permitan sujetar y centrar el marcador.
 
 <p align="center">
-  <img scr="[https://github.com/omanrique18/Lab1-Robotica_Industrial/blob/main/images/FlexPendant.jpeg](https://user-images.githubusercontent.com/51519737/188254895-fae6523e-bba8-4e92-b6e4-27ed2c572a2d.jpeg)" width="350" />
+  <img scr="https://user-images.githubusercontent.com/51519737/188254895-fae6523e-bba8-4e92-b6e4-27ed2c572a2d.jpeg" width="350" />
 </p>
   
 2. Se disena una pieza capaz de centrar el marcador desde su base y que se deslice por el interior de la pieza anterior. Se introduce una esponja en el espacio hueco a fin de que funcione como resorte, evitando que la punta se hunda a lo largo de las rutinas del robot.
