@@ -1,14 +1,14 @@
 # Lab1-Robotica_Industrial
-##Herramienta
-###Requerimientos
+## Herramienta
+### Requerimientos
 
--Se considera que el proceso de escribir sobre un tablero no demanda mayor fuerza por parte del robot, por ende no es necesario disenar una pieza muy robusta. Ademas, con el fin de proteger el plato de herramientas, se desea que la herramienta sea de un material que se quiebre primero en caso de una colision con el terreno.
+- Se considera que el proceso de escribir sobre un tablero no demanda mayor fuerza por parte del robot, por ende no es necesario disenar una pieza muy robusta. Ademas, con el fin de proteger el plato de herramientas, se desea que la herramienta sea de un material que se quiebre primero en caso de una colision con el terreno.
 
--Desde un inicio se planeo el uso de manufactura aditiva para la construccion de la herramienta, por ello a fin de tener una pieza que pueda manufacturarse rapidamente se disena un ensamble por modulos independientes, en lugar de un cuerpo extremadamente largo que cubra todo el marcador y demande mas material y tiempo.
+- Desde un inicio se planeo el uso de manufactura aditiva para la construccion de la herramienta, por ello a fin de tener una pieza que pueda manufacturarse rapidamente se disena un ensamble por modulos independientes, en lugar de un cuerpo extremadamente largo que cubra todo el marcador y demande mas material y tiempo.
 
--Como requerimiento adicional, se planteo la posibilidad de usar cualquier marcador.
+- Como requerimiento adicional, se planteo la posibilidad de usar cualquier marcador.
 
-###Diseno
+### Diseno
 
 1. Se obtienen las medidas del plato.
 
@@ -30,13 +30,13 @@
 /Lab1-Robotica_Industrial/images/Herramienta.jpeg
 /Lab1-Robotica_Industrial/images/HerramientaPos.jpeg
 
-##Modelado de las letras
+## Modelado de las letras
 
 Se modela una placa donde se hace un bajo relieve con las iniciales de los miembros del grupo Juan y Oscar. Posteriormente esta se traslada a robot estudio donde se generan las rutas que dibujan los contornos de las letras.
 
 /Lab1-Robotica_Industrial/images/Letras.jpeg
 
-##RobotStudio
+## RobotStudio
 
 Se definen 3 rutas, una dibuja la jota en su totalidad, y las otras dos las O, siendo una el contorno interno y la otra el externo. Adicionalmente se define una herramienta que solo tiene un desfase en z respecto al marco del plato.
 
@@ -48,7 +48,7 @@ Luego sincronizamos el programa y en el main se llaman los bloques que dibujan c
 
 /Lab1-Robotica_Industrial/videos/SimulacionRS.mp4
 
-##Calibracion de la herramienta
+## Calibracion de la herramienta
 
 1. Se instala la herramienta en el plato del manipulador.
 
@@ -64,7 +64,7 @@ Luego sincronizamos el programa y en el main se llaman los bloques que dibujan c
 /Lab1-Robotica_Industrial/images/FlexPendant.jpeg
 
 
-##WorkObject
+## WorkObject
 
 1. Se fija la superficie sobre la cual se va a sibujar al piso con cinta adhesiva.
 
@@ -76,7 +76,7 @@ Luego sincronizamos el programa y en el main se llaman los bloques que dibujan c
 
 3. Se guarda el WorkObject obtenido.
 
-##Ejecucion de rutina
+## Ejecucion de rutina
 
 Se descarga el programa RAPID en el FlexPendant mediante una USB y se da inicio a la rutina. 
 
@@ -94,10 +94,10 @@ Esto genero inconvenientes durante la ejecucion a causa de la singularidad que g
 
 /Lab1-Robotica_Industrial/images/ResultadoFinal2.jpeg
 
-##Integrantes
+## Integrantes
 -Juan Andres Bueno Hortua
 -Oscar Javier Manrique Merchan
 
-##Profesores
+## Profesores
 -Ricardo Emiro Ramirez Heredia
 -Jhoan Sebastian Rodriguez Rodriguez
